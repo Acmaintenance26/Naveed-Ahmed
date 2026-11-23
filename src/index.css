@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  body {
+    color: #1e293b;
+    background-color: #f8fafc;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom utility highlights */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #d4af37 0%, #b8860b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtle-mesh {
+  background-color: #f8fafc;
+  background-image: radial-gradient(at 0% 0%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
+                    radial-gradient(at 100% 100%, rgba(15, 47, 87, 0.06) 0px, transparent 50%);
+}

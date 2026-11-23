@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2F57" />
+      <stop offset="100%" stop-color="#00A896" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Teal to Navy Gradient Rounded Background matching AL Naveed header logo -->
+  <rect width="512" height="512" rx="116" fill="url(#bgGrad)" />
+  <rect x="8" y="8" width="496" height="496" rx="108" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="8" />
+
+  <!-- Sparkles Icon (Amber/Gold Lucide Sparkles identical to website header) -->
+  <g transform="translate(86, 86) scale(14.166)" fill="none" stroke="#FCD34D" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- Central 4-pointed Sparkle with luminous soft amber fill for clarity at small sizes -->
+    <path
+      d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
+      fill="#FCD34D"
+      fill-opacity="0.25"
+    />
+    <!-- Top-right mini sparkle -->
+    <path d="M20 2v4" />
+    <path d="M22 4h-4" />
+    <!-- Bottom-left sparkling orb -->
+    <circle cx="4" cy="20" r="2" fill="#FCD34D" fill-opacity="0.3" />
+  </g>
+</svg>
